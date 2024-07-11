@@ -1,0 +1,377 @@
+repo_name: isiqueira/azure-function-test
+report_id: 9c191a310991753328bcd3a78e495981
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-11T17:41:10+00:00'
+requested_by: v-fearam
+provider: github
+branch: main
+detected_tools_count: 28
+tools:
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/isiqueira/azure-function-test
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/isiqueira/azure-function-test
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/isiqueira/azure-function-test
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/isiqueira/azure-function-test/blob/main/src/DroneTelemetry/DroneTelemetryFunctionApp/DroneTelemetryFunctionApp.csproj
+  detection_source: src/DroneTelemetry/DroneTelemetryFunctionApp/DroneTelemetryFunctionApp.csproj
+  last_updated_by: Federico Arambarri
+  last_updated_on: 2022-10-20 18:24:20.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/isiqueira/azure-function-test/blob/main/src/DroneSimulator/Serverless.Simulator/Serverless.Simulator.csproj
+  detection_source: src/DroneSimulator/Serverless.Simulator/Serverless.Simulator.csproj
+  last_updated_by: Kirpa Singh
+  last_updated_on: 2018-10-12 16:22:15.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/isiqueira/azure-function-test/blob/main/src/DroneSimulator/Serverless.Simulator/Serverless.Simulator.csproj
+  detection_source: src/DroneSimulator/Serverless.Simulator/Serverless.Simulator.csproj
+  last_updated_by: Kirpa Singh
+  last_updated_on: 2018-10-12 16:22:15.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/isiqueira/azure-function-test/blob/main/src/DroneStatus/nodejs/package.json
+  detection_source: src/DroneStatus/nodejs/package.json
+  last_updated_by: Kirpa Singh
+  last_updated_on: 2018-10-12 16:22:15.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/isiqueira/azure-function-test/blob/main/src/ClientApp/package-lock.json
+  detection_source: src/ClientApp/package.json
+  last_updated_by: Federico Arambarri
+  last_updated_on: 2021-09-23 11:55:54.000000000 Z
+- name: Azure Cosmos DB
+  description: A fully-managed, globally distributed NoSQL database service
+  website_url: https://azure.microsoft.com/en-us/services/cosmos-db/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: NoSQL Database as a Service
+  image_url: https://img.stackshare.io/service/1369/nquiptD9.png
+  detection_source_url: https://github.com/isiqueira/azure-function-test/blob/main/src/DroneStatus/dotnet/DroneStatusFunctionApp/DroneStatusFunctionApp.csproj
+  detection_source: src/DroneStatus/dotnet/DroneStatusFunctionApp/DroneStatusFunctionApp.csproj
+  last_updated_by: Federico Arambarri
+  last_updated_on: 2022-10-20 18:24:20.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/isiqueira/azure-function-test
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/isiqueira/azure-function-test/blob/main/.github/workflows/deploy-clientapp.yaml
+  detection_source: ".github/workflows/deploy-clientapp.yaml"
+  last_updated_by: Federico Arambarri
+  last_updated_on: 2022-10-14 17:08:24.000000000 Z
+- name: Moq
+  description: The most popular and friendly mocking framework for .NET
+  website_url: https://github.com/Moq/moq4
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1628/1434934.png
+  detection_source_url: https://github.com/isiqueira/azure-function-test/blob/main/src/DroneStatus/dotnet/DroneStatusFunction.Tests/DroneStatusFunction.Tests.csproj
+  detection_source: src/DroneStatus/dotnet/DroneStatusFunction.Tests/DroneStatusFunction.Tests.csproj
+  last_updated_by: Kirpa Singh
+  last_updated_on: 2018-10-12 16:22:15.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/isiqueira/azure-function-test/blob/main/src/DroneTelemetry/DroneTelemetryFunctionApp/DroneTelemetryFunctionApp.csproj
+  detection_source: src/DroneTelemetry/DroneTelemetryFunctionApp/DroneTelemetryFunctionApp.csproj
+  last_updated_by: Kirpa Singh
+  last_updated_on: 2018-10-12 16:22:15.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/isiqueira/azure-function-test/blob/main/src/ClientApp/package-lock.json
+  detection_source: src/ClientApp/package.json
+  last_updated_by: Fernando Antivero
+  last_updated_on: 2019-08-09 17:23:23.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/isiqueira/azure-function-test/blob/main/src/DroneSimulator/DroneSimulator.sln
+  detection_source: src/DroneSimulator/DroneSimulator.sln
+  last_updated_by: Kirpa Singh
+  last_updated_on: 2018-10-12 16:22:15.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/isiqueira/azure-function-test/blob/main/src/DroneStatus/nodejs/package.json
+  detection_source: src/DroneStatus/nodejs/package.json
+  last_updated_by: Kirpa Singh
+  last_updated_on: 2018-10-12 16:22:15.000000000 Z
+- name: xUnit
+  description: An open source, community-focused unit testing tool
+  website_url: http://xunit.github.io/
+  version: 2.4.2
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/3077/ca5a327feb49ddfe1f4b11548907e5a1_400x400.png
+  detection_source_url: https://github.com/isiqueira/azure-function-test/blob/main/src/DroneStatus/dotnet/DroneStatusFunction.Tests/DroneStatusFunction.Tests.csproj
+  detection_source: src/DroneStatus/dotnet/DroneStatusFunction.Tests/DroneStatusFunction.Tests.csproj
+  last_updated_by: Kirpa Singh
+  last_updated_on: 2018-10-12 16:22:15.000000000 Z
+- name: Azure Functions
+  description: Listen and react to events across your stack
+  website_url: https://azure.microsoft.com/en-us/services/functions/
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Serverless / Task Processing
+  image_url: https://img.stackshare.io/service/4851/default_1c86e0d45d685cb73aa9a39a658159f6199de49d.png
+  detection_source_url: https://github.com/isiqueira/azure-function-test/blob/main/src/DroneTelemetry/DroneTelemetryFunctionApp/DroneTelemetryFunctionApp.csproj
+  detection_source: src/DroneTelemetry/DroneTelemetryFunctionApp/DroneTelemetryFunctionApp.csproj
+  last_updated_by: Federico Arambarri
+  last_updated_on: 2022-10-20 18:24:20.000000000 Z
+- name: Gatsby
+  description: Free, open source framework for building blazing fast websites and
+    apps with React
+  website_url: https://www.gatsbyjs.org
+  version: 2.32.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Static Site Generators
+  image_url: https://img.stackshare.io/service/5472/default_189db484e0770a6101c6a70f0ef0172bc0f8de37.png
+  detection_source_url: https://github.com/isiqueira/azure-function-test/blob/main/src/ClientApp/package-lock.json
+  detection_source: src/ClientApp/package.json
+  last_updated_by: Rick Hallihan
+  last_updated_on: 2020-09-16 15:01:47.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.21.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/isiqueira/azure-function-test/blob/main/src/ClientApp/package-lock.json
+  detection_source: src/ClientApp/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-09-15 17:58:56.000000000 Z
+- name: MSTest.TestFramework
+  description: This is MSTest V2, the evolution of Microsoft's Test Framework
+  package_url: https://www.nuget.org/MSTest.TestFramework
+  version: 2.2.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13142/default_a057bdad489be3cb053d372a68695da4ac94962d.png
+  detection_source_url: https://github.com/isiqueira/azure-function-test/blob/main/src/DroneTelemetry/DroneTelemetryFunction.Tests/DroneTelemetryFunction.Tests.csproj
+  detection_source: src/DroneTelemetry/DroneTelemetryFunction.Tests/DroneTelemetryFunction.Tests.csproj
+  last_updated_by: Federico Arambarri
+  last_updated_on: 2022-10-20 18:24:20.000000000 Z
+- name: Microsoft.ApplicationInsights
+  description: Application Insights Base API
+  package_url: https://www.nuget.org/Microsoft.ApplicationInsights
+  version: 2.21.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13015/default_dd10728859f7e363ef13345d855b2daba48cace4.png
+  detection_source_url: https://github.com/isiqueira/azure-function-test/blob/main/src/DroneTelemetry/DroneTelemetryFunctionApp/DroneTelemetryFunctionApp.csproj
+  detection_source: src/DroneTelemetry/DroneTelemetryFunctionApp/DroneTelemetryFunctionApp.csproj
+  last_updated_by: Federico Arambarri
+  last_updated_on: 2022-10-20 18:24:20.000000000 Z
+- name: Microsoft.Extensions.Configuration.UserSecrets
+  description: User secrets configuration provider implementation for Microsoft.Extensions.Configuration
+  package_url: https://www.nuget.org/Microsoft.Extensions.Configuration.UserSecrets
+  version: 6.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13212/default_18a92235046d8c8db548cd22b87cf5792dc31759.png
+  detection_source_url: https://github.com/isiqueira/azure-function-test/blob/main/src/DroneStatus/dotnet/DroneStatusFunctionApp/DroneStatusFunctionApp.csproj
+  detection_source: src/DroneStatus/dotnet/DroneStatusFunctionApp/DroneStatusFunctionApp.csproj
+  last_updated_by: Federico Arambarri
+  last_updated_on: 2022-10-20 18:24:20.000000000 Z
+- name: Newtonsoft.Json
+  description: Json.NET is a popular high-performance JSON framework for .NET
+  package_url: https://www.nuget.org/Newtonsoft.Json
+  version: 13.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/nuget/image.png
+  detection_source_url: https://github.com/isiqueira/azure-function-test/blob/main/src/DroneSimulator/Serverless.Simulator/Serverless.Simulator.csproj
+  detection_source: src/DroneSimulator/Serverless.Simulator/Serverless.Simulator.csproj
+  last_updated_by: Federico Arambarri
+  last_updated_on: 2021-09-15 16:16:53.000000000 Z
+- name: xunit.runner.visualstudio
+  description: Visual Studio 2012+ Test Explorer runner for the xUnit.net framework
+  package_url: https://www.nuget.org/xunit.runner.visualstudio
+  version: 2.4.5
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13260/default_d2db5a200c4fe2d08cbdb2174cc230708973870b.png
+  detection_source_url: https://github.com/isiqueira/azure-function-test/blob/main/src/DroneStatus/dotnet/DroneStatusFunction.Tests/DroneStatusFunction.Tests.csproj
+  detection_source: src/DroneStatus/dotnet/DroneStatusFunction.Tests/DroneStatusFunction.Tests.csproj
+  last_updated_by: Federico Arambarri
+  last_updated_on: 2022-10-20 18:24:20.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 14.18.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/isiqueira/azure-function-test/blob/main/src/ClientApp/package-lock.json
+  detection_source: src/DroneStatus/nodejs/package.json
+  last_updated_by: Federico Arambarri
+  last_updated_on: 2021-09-28 13:52:32.000000000 Z
+- name: office-ui-fabric-react
+  description: Reusable React components for building experiences for Office 365
+  package_url: https://www.npmjs.com/office-ui-fabric-react
+  version: 6.198.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18780/default_afda66acb9bafb22429bd41a9f8fb9fd9e63686c.png
+  detection_source_url: https://github.com/isiqueira/azure-function-test/blob/main/src/ClientApp/package-lock.json
+  detection_source: src/ClientApp/package.json
+  last_updated_by: Federico Arambarri
+  last_updated_on: 2021-09-23 11:55:54.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.8.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/isiqueira/azure-function-test/blob/main/src/ClientApp/package-lock.json
+  detection_source: src/ClientApp/package.json
+  last_updated_by: Federico Arambarri
+  last_updated_on: 2021-09-23 11:55:54.000000000 Z
